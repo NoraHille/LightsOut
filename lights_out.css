@@ -1,0 +1,27 @@
+.toggle-button:selected{
+	/*-fx-background-color: radial-gradient( center 50% 50%, radius 50%,  black 50%, darkgrey 90%, white);*/
+	-fx-background-color: black;
+	-fx-opacity: 0.8; 
+}
+
+.toggle-button{
+	/*-fx-background-color : radial-gradient( center 50% 50%, radius 50%,  orange 50%, yellow 90%, white);*/
+	-fx-background-color: yellow;
+	-fx-opacity: 0.8; 
+	-fx-pref-height: 80;
+	-fx-pref-width: 80; 
+}
+
+.grid-pane{
+	-fx-padding: 10.0;
+	-fx-hgap: 8.0;
+	-fx-vgap: 8.0;
+	-fx-background-color: darkgrey
+}
+
+.hbox {
+	-fx-alignment: center;
+	-fx-padding: 10.0;
+	-fx-font-size: 18;
+	-fx-background-color: darkgrey
+}
